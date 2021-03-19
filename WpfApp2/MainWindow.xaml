@@ -1,0 +1,14 @@
+﻿<Window x:Class="WpfApp2.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp2"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="709.251">
+    <Grid>
+        <Button x:Name="button1" Content="Жмак" HorizontalAlignment="Center" Margin="236,255,243,0" VerticalAlignment="Top" Width="222" Click="button1_Click"/>
+        <TextBlock x:Name="capcha" HorizontalAlignment="Left" Margin="244,135,0,0" TextWrapping="Wrap" Text="Здесь будет капча" VerticalAlignment="Top" FontSize="18" Width="214" TextAlignment="Center"/>
+
+    </Grid>
+</Window>
